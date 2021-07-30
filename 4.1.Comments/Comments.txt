@@ -1,0 +1,33 @@
+# Comments are used to document a program to enhance its readability and understanding
+
+# To remind you and someone who is looking at the code that the this piece of code or entire program is doing some activities
+
+# Comments are ignored by the compiler
+
+# It saves lot of time, because if I'm looking at the code after 6 months, I just need to read the comments for understanding the code
+
+# 2 Ways for commenting in C Language
+
+# Multi-line comments & Single-line comments
+
+# Multi-line comments are used to comment out a block of code using (/* ... */)
+
+# Single-line comments are used to comment out a single line of code using (// Single line comment)
+
+# Style of comments
+
+# Style 1:
+/* 
+* Written by Rakuram
+* reach me through github chat or email
+*/
+
+# Style 2:
+/***************************************
+* Written by Rakuram     *
+* reach me through github chat or email    *
+***************************************/
+
+# Commenting at the end of line of code is also allowed
+
+# Using easily recogniable variable names represents the good quality of code
