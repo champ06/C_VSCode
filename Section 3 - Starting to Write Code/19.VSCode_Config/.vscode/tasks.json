@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build vscode_config",
+            "label": "build 310721_CLang_VSCodeConfig",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
-                "vscode_config",
-                "vscode_config.c"
+                "310721_CLang_VSCodeConfig",
+                "310721_CLang_VSCodeConfig.c"
             ],
             "group": {
                 "kind": "build",

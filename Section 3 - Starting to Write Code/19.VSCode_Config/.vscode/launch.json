@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/vscode_config.exe",
+            "program": "${workspaceFolder}/310721_CLang_VSCodeConfig.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
