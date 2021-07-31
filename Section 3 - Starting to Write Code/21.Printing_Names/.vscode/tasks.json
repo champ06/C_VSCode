@@ -2,14 +2,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build printing_names",
+            "label": "build 310721_CLang_PrintingNames",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
-                "printing_names",
-                "printing_names.c"
+                "310721_CLang_PrintingNames",
+                "310721_CLang_PrintingNames.c"
             ],
             "group": "build"
         },

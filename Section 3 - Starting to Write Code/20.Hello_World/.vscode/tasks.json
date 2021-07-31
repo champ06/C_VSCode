@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build 310721_CLang_StructureOfAProgram",
+            "label": "build 310721_CLang_HelloWorld",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
-                "310721_CLang_StructureOfAProgram",
-                "310721_CLang_StructureOfAProgram.c"
+                "310721_CLang_HelloWorld",
+                "310721_CLang_HelloWorld.c"
             ],
             "group": {
                 "kind": "build",
