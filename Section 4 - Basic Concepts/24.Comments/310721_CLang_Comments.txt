@@ -1,10 +1,10 @@
 # Comments are used to document a program to enhance its readability and understanding
 
-# To remind you and someone who is looking at the code that the this piece of code or entire program is doing some activities
+# To remind you or someone who is looking at the code, that this piece of code or entire program is doing some specific activities
 
 # Comments are ignored by the compiler
 
-# It saves lot of time, because if I'm looking at the code after 6 months, I just need to read the comments for understanding the code
+# If someone looking at the code after 6 months, one just need to read the comments for understanding
 
 # 2 Ways for commenting in C Language
 
