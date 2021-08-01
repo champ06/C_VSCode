@@ -1,0 +1,51 @@
+# Starts with POUND symbol (#) followed by the INCLUDE
+
+# Ex: #include <stdio.h>
+
+# It is not strictly part of the executable code, but code won't work without it
+
+# An instruction to compiler to do something before compiling the source code
+
+# Telling the compiler to include the file named with <stdio.h>
+
+# For example to use printf statement, stdio.h file needs to be imported to the code
+
+# stdio, is short for standard input/output library
+
+# Header files used to integrate any predefined functions within a program
+
+# We can create own header files using C program
+
+# Basically as software reuse functionality
+
+# Header files are Case-Sensitive. So, always use lowercase to include preprocessor
+
+# Two ways to include header files
+
+# 1. #include <stdio.h> - look for stdio.h file in one or more standard system directory
+
+# 2. #include "header.h" - look for header.h file in current directory. User defined header files
+
+# To avoid multiple inclusion of a header file, use #define, #ifndef, and #endif
+
+# Simply called as guarding against the multiple inclusion of header
+
+# #include - include a header file
+
+# #define - define a constant
+
+# #ifdef - if defined
+
+# #ifndef - if not defined
+
+# #endif - end of ifndef
+
+# #else - else
+
+# Header files also includes many different things like #define, structure declaration, typedef statements, function prototypes
+
+# Header files don't contain any logic only DEFINITIONS. Just tells that, this function exists, that structure exists, etc.,
+
+# Header files won't explain what this function is doing
+
+# 
