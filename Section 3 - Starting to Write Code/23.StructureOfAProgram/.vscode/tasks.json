@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build 310721_CLang_StructureOfAProgram",
+            "label": "build 310721_CLang_Structure_Of_A_Program",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
-                "310721_CLang_StructureOfAProgram",
-                "310721_CLang_StructureOfAProgram.c"
+                "310721_CLang_Structure_Of_A_Program",
+                "310721_CLang_Structure_Of_A_Program.c"
             ],
             "group": {
                 "kind": "build",

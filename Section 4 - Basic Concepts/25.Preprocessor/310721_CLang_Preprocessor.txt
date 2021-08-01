@@ -1,0 +1,15 @@
+# Unique feature of the C Language
+
+# Allows programs to be easier to develop, read, modify and port to different computer or OS
+
+# It is part of C Compilation process. It executes before the actual C program (Source Code) execution. That's why it is called as preprocesor
+
+# It starts with the POUND sign (#) without any space or special characters
+
+# It is used to define a preprocessor directive
+
+# We can create own constants, MACROS using the #define statement
+
+# Other powerful conditional statements like #ifdef, #endif, #else, and #ifndef
+
+# 

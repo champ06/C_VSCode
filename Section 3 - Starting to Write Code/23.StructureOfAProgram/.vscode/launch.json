@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/310721_CLang_StructureOfAProgram.exe",
+            "program": "${workspaceFolder}/310721_CLang_Structure_Of_A_Program.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
