@@ -11,5 +11,3 @@
 # We can create own constants, MACROS using the #define statement
 
 # Other powerful conditional statements like #ifdef, #endif, #else, and #ifndef
-
-# 

@@ -47,5 +47,3 @@
 # Header files don't contain any logic only DEFINITIONS. Just tells that, this function exists, that structure exists, etc.,
 
 # Header files won't explain what this function is doing
-
-# 
