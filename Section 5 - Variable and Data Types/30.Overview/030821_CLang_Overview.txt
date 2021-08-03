@@ -42,5 +42,3 @@
 
 # Initialization of variables
     1. Example: int a = 10 - declaring a variable and Initialization its values as 10
-
-# 
