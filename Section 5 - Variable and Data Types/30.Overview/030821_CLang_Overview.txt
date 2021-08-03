@@ -1,0 +1,46 @@
+# Program needs to be stored in memory. Initially program will be saved in RAM.
+
+# When PC turned off, RAM contents about the program will be lost.
+
+# Bits - 0's and 1's
+
+# Byte - 8 bits. Each byte have memory address to access from the computer memory
+
+# Word - 16 bits.
+
+# Long - 32 bits.
+
+# Variable - name of the variable. Values can be changed.
+
+# Constants - Data do not change and retain their value through the program.
+
+# Naming Variables Rules: (Valid names)
+    1. Jason
+    2. myFlag
+    3. i
+    4. my_variable
+    5. _variable
+    6. J5x7
+
+# Naming Variables Rules: (invalid names) - Compiler throws the error
+    1. temp$value - $ is not a valid character in variable names
+    2. my flag - embedded spaces are not permitted
+    3. 3jason - Variable can't start with a number
+    4. int, float, char, bool - reserved words
+
+# Data Types
+    1. int - integer ()
+    2. float - floating point
+    3. char - character
+    4. bool - boolean
+    5. string - string
+    6. double - double
+
+# Variables and its datatype needs to declared before use.
+
+# Assignment operator (=) to assign a value to a variable.
+
+# Initialization of variables
+    1. Example: int a = 10 - declaring a variable and Initialization its values as 10
+
+# 
