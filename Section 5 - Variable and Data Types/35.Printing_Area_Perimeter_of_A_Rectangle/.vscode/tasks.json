@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 070821_CLang_Printing_Area_Perimeter_of_A_Rectangle",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "070821_CLang_Printing_Area_Perimeter_of_A_Rectangle",
+                "070821_CLang_Printing_Area_Perimeter_of_A_Rectangle.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
