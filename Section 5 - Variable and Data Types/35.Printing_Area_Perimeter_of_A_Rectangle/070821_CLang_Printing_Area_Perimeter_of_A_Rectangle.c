@@ -13,7 +13,7 @@ int main()
     float rectPerimeter = 0;
     float rectArea = 0;
 
-    // printf("Enter the value of width and length of a Rectangle \n");
+    printf("Enter the value of width and length of a Rectangle \n");
     scanf("%f", &rectLength);
     scanf("%f", &rectWidth);
 
