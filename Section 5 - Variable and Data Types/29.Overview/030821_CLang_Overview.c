@@ -17,5 +17,8 @@ int main()
     // Modifing a variable
     j = 10;
 
+    printf("i = %d\n", i); // Prints out Garbage Value
+    printf("j = %d\n", j);
+
     return 0;
 }
