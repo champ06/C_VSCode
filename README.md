@@ -15,3 +15,7 @@ https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S
 https://www.stackoverflow.com
 
 https://geeksforgeeks.com
+
+https://linux.die.net/man
+
+https://man7.org/linux/man-pages/man3/printf.3.html
