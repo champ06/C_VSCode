@@ -60,7 +60,7 @@ unsigned long long     numberLongLong    = testValue; // 18446744073709551615
     printf("Max of 'uint8_t' = %zd\n", __UINT8_MAX__);
     printf("Max of 'uint16_t' = %zd\n", __UINT16_MAX__);
     printf("Max of 'uint32_t' = %zd\n", __UINT32_MAX__);
-    // printf("Max of 'uint64_t' = %zd\n", __UINT64_MAX__); Not working
+    // printf("Max of 'uint64_t' = %u\n", __UINT64_MAX__); Not working
     
     return 0;
 }
