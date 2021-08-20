@@ -13,21 +13,21 @@ int main()
 
     for(i = 0; i < NumOfTestCases; i++)
     {
-        int totalQuantity, pricePerQuantity;
-        float totalPrice;
+        double totalQuantity, pricePerQuantity;
+        double totalPrice;
         while(NumOfTestCases > 0)
         {
-            scanf("%d %d", &totalQuantity, &pricePerQuantity);
+            scanf("%lf %lf", &totalQuantity, &pricePerQuantity);
             if(totalQuantity < 1000)
             {
                 totalPrice = totalQuantity * pricePerQuantity;
-                printf("%.6f\n", totalPrice);
+                printf("%lf\n", totalPrice);
             }
             else
             {
                 totalPrice = totalQuantity * pricePerQuantity;
                 totalPrice = totalPrice - (totalPrice*0.1);
-                printf("%.6f\n", totalPrice);
+                printf("%lf\n", totalPrice);
             }
         NumOfTestCases--;
         }
