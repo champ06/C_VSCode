@@ -9,7 +9,7 @@ int main()
     int length, breadth, perimeter, area;
 
     // Total Test Cases
-    scanf("%d\n%d", &length, &breadth);
+    scanf("%d, %d", &length, &breadth);
 
     perimeter = 2 * (length + breadth);
     area = length * breadth;
