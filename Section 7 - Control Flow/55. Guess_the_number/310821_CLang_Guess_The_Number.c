@@ -19,28 +19,35 @@ int main()
 
     // printf("%d", randomNumber);
 
-    for (int i = 5; i >= 1; i--)
+    for (int numberOfGuesses = 5; numberOfGuesses >= 1; numberOfGuesses--)
     {
         int EnteredNumber;
-        printf("You have %d tries left\n", i);
+        printf("You have %d tr%s left\n", numberOfGuesses, numberOfGuesses == 1 ? "y" : "ies");
         scanf ("%d", &EnteredNumber);
         // printf ("%d\n", EnteredNumber);
-        if (randomNumber > EnteredNumber)
+        
+        if (EnteredNumber < 0 || EnteredNumber > 20)
         {
-            printf("\nGuessed number is too LOW\n\n");
+            printf("Invalid Number %d Entered\n\n", EnteredNumber);
+        }
+        
+
+        else if (randomNumber > EnteredNumber)
+        {
+            printf("Guessed number %d is too LOW\n\n", EnteredNumber);
         }
         
         else if (randomNumber < EnteredNumber)
         {
-            printf("Guessed number is too HIGH\n\n");
+            printf("Guessed number %d is too HIGH\n\n", EnteredNumber);
         }
 
         else if (randomNumber == EnteredNumber)
         {
-            printf("Congratulations! You guessed correct number\n\n");
-            break;
+            printf("Congratulations! You guessed correct number %d\n\n", EnteredNumber);
+            return 0;
         }
     }
-
+    printf("Correct number is %d", randomNumber);
     return 0;
 }
