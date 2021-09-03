@@ -27,17 +27,17 @@ int main()
         // printf ("%d\n", EnteredNumber);
         if (randomNumber > EnteredNumber)
         {
-            printf("\nEntered number is too LOW\n\n");
+            printf("\nGuessed number is too LOW\n\n");
         }
         
         else if (randomNumber < EnteredNumber)
         {
-            printf("Entered number is too HIGH\n\n");
+            printf("Guessed number is too HIGH\n\n");
         }
 
         else if (randomNumber == EnteredNumber)
         {
-            printf("You entered correct number\n\n");
+            printf("Congratulations! You guessed correct number\n\n");
             break;
         }
     }
