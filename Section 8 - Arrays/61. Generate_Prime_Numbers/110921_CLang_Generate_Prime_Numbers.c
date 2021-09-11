@@ -24,7 +24,7 @@ int main()
     primes[0] = 2;
     primes[1] = 3;
 
-    for(p = 5; p <= 100; p = p + 2)
+    for(p = 5; p <= 100; p = p + 2)     // Iterate over all the ODD Numbers
     {
         isPrime = true;
 
