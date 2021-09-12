@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 120921_CLang_Find_Odd_and_Even_Numbers_from_Array",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "120921_CLang_Find_Odd_and_Even_Numbers_from_Array",
+                "120921_CLang_Find_Odd_and_Even_Numbers_from_Array.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
