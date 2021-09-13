@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 140921_CLang_Program_to_Store_Transpose_of_a_Matrix_in_another_Matrix",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "140921_CLang_Program_to_Store_Transpose_of_a_Matrix_in_another_Matrix",
+                "140921_CLang_Program_to_Store_Transpose_of_a_Matrix_in_another_Matrix.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
