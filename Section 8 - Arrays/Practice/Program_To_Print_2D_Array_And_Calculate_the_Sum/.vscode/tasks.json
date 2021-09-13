@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 130921_CLang_Program_To_Print_2D_Array_And_Calculate_the_Sum",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "130921_CLang_Program_To_Print_2D_Array_And_Calculate_the_Sum",
+                "130921_CLang_Program_To_Print_2D_Array_And_Calculate_the_Sum.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
