@@ -27,11 +27,14 @@ int main()
 
     gets(g);
     // puts(g);
-    printf("%s", g);
-    printf("%.5s", g);
-    printf("%10.5s", g);
-    puts(g);
-    puts(g);
+    // printf("%s", g);
+    // printf("%.5s", g);
+    // printf("%10.5s", g);
+    // puts(g);
+    // puts(g);
+    printf("%s\n", &g);
+    printf("%s\n", &g[2]);
+    printf("%s", g[2]);
 
     return 0;
 }
