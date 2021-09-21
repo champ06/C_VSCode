@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/200921_CLang_Searching_Tokenizing_and_Analysing_Strings.exe",
+            "program": "${workspaceFolder}/200921_CLang_Searching_and_Tokenizing_Strings.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",

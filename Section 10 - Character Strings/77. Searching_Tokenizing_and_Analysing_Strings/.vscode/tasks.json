@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build 200921_CLang_Searching_Tokenizing_and_Analysing_Strings",
+            "label": "build 200921_CLang_Searching_and_Tokenizing_Strings",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
-                "200921_CLang_Searching_Tokenizing_and_Analysing_Strings",
-                "200921_CLang_Searching_Tokenizing_and_Analysing_Strings.c"
+                "200921_CLang_Searching_and_Tokenizing_Strings",
+                "200921_CLang_Searching_and_Tokenizing_Strings.c"
             ],
             "group": {
                 "kind": "build",
