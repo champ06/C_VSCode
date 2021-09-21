@@ -1,5 +1,5 @@
 /*
-* Searching, Tokenizing & Searching Strings
+* Searching and Tokenizing Strings
 */
 
 #include<stdio.h>
