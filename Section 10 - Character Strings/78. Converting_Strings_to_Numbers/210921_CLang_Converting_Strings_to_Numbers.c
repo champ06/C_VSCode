@@ -24,12 +24,10 @@
 
 int main()
 {
-    // strchr() Example
-    // printf("islower() Example\n");
-    
+    /*
     char str1[100];
     double value = 0;
-    /*
+    
     printf("Enter the array of characters for string 1\n");
     scanf("%s", str1);
 
@@ -41,6 +39,25 @@ int main()
     printf("%.2lf\n", value);
     */
 
-    
+    double value = 0;
+    char str[] = "1 2 3";
+    char *pstr = str;
+    char *ptr = NULL;
+
+    while (1)
+    {
+        value = strtod(pstr, &ptr);
+        if(pstr == ptr)
+        {
+            printf("No conversion\n");
+            break;
+        }
+        else
+        {
+            printf(" %f", value);
+            pstr = ptr;
+        }
+        
+    }
     return 0;
 }
