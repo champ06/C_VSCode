@@ -1,5 +1,5 @@
 /*
-** Pointer - Arithmetic Operations
+** Pointer - Arithmetic Operations - Addition
 */
 
 #include<stdio.h>

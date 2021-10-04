@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build 041021_CLang_Pointer_Arithmetic_Operations",
+            "label": "build 041021_CLang_Pointer_Arithmetic_Operations_Subtraction",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
                 "-o",
-                "041021_CLang_Pointer_Arithmetic_Operations",
-                "041021_CLang_Pointer_Arithmetic_Operations.c"
+                "041021_CLang_Pointer_Arithmetic_Operations_Subtraction",
+                "041021_CLang_Pointer_Arithmetic_Operations_Subtraction.c"
             ],
             "group": {
                 "kind": "build",
