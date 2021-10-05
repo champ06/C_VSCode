@@ -32,10 +32,12 @@ int main()
     *ptr1 = 27;
     ptr2 = ptr2 - 3;
     printf("Value of d = %u\n", ptr2);
+    printf("Value of ptr2 = %d\n", *ptr2);
     printf("---------------------------------------\n\n");
     
     ptr1 = ptr1 + 3;
     printf("Value of d = %u\n", ptr1);
+    printf("Value of ptr1 = %d\n", *ptr1);
     printf("---------------------------------------\n\n");
 
     d = ptr1 - ptr2;
