@@ -21,3 +21,11 @@ https://geeksforgeeks.com
 https://linux.die.net/man
 
 https://man7.org/linux/man-pages/man3/printf.3.html
+
+https://mu.microchip.com/advanced-c-programming
+
+https://skills.microchip.com/fundamentals-of-the-c-programming-language
+
+https://skills.microchip.com/fundamentals-of-the-c-programming-language-part-ii
+
+https://skills.microchip.com/fundamentals-of-the-c-programming-language-part-iii
