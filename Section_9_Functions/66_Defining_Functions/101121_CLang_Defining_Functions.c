@@ -4,13 +4,22 @@
 
 #include<stdio.h>
 #include<string.h>
-#define MAX_BYTES 100
 
+// Function Prototype
+// Without function prototype, compilation will return the error/warning
+// Comment it out the prototype to see the difference
+void add ();
+
+// Calling function in main
 int main()
 {
-    char s1 [MAX_BYTES], s2[MAX_BYTES];
-    printf("This is \"printed within\\\" double quotes.\n");
-
-    printf("This example is to represent the \0 used to terminate the string");
+    add();
     return 0;
 }
+
+// Defining the function
+void add()
+{
+    printf("Hello from add function\n");
+}
+

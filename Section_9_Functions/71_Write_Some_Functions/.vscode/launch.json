@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:\\Users\\admin\\Downloads\\Rakuram\\C_VSCode\\Section_9_Functions\\66_Defining_Functions\\101121_CLang_Defining_Functions.exe",
+            "program": "${workspaceFolder}/111121_CLang_Write_Some_Functions.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
