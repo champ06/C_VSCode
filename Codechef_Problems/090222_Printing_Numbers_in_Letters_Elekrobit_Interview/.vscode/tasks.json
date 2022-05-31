@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 090222_CLang_Printing_Numbers_in_Letters_Elekrobit_Interview",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "090222_CLang_Printing_Numbers_in_Letters_Elekrobit_Interview",
+                "090222_CLang_Printing_Numbers_in_Letters_Elekrobit_Interview.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

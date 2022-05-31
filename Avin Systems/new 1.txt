@@ -1,0 +1,44 @@
+#include<stdio.h>
+int main()
+{
+    const int a;
+	const int *x = &a;
+    *x=100;
+	printf("%d", a);
+    return 0;
+}
+==================================
+#include<stdio.h>
+int main()
+{
+    const int a;
+	int *x = &a;
+    a = 100;
+	printf("%d", a);
+    return 0;
+}
+==================================
+
+#include<stdio.h>
+int main()
+{
+    const int a;
+	const int *x = &a;
+    *x=100;
+	printf("%d", a);
+    return 0;
+}
+==================================
+main()
+{
+int a ;
+scanf();
+if (a % 2 == 0)
+{
+
+}
+else
+{
+
+}
+}

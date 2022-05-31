@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build 150222_CLang_Count_Total_Number_of_Function_Calls_Cyient_Interview",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "150222_CLang_Count_Total_Number_of_Function_Calls_Cyient_Interview",
+                "150222_CLang_Count_Total_Number_of_Function_Calls_Cyient_Interview.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
